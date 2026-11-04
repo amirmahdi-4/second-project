@@ -8,7 +8,7 @@ system("color b");
 int second,minute,hour,day;
 cout<<"enter number: ";
 cin>> second;
-if(second>0)
+if(second>=0)
 { day=second/86400;
   hour=(second%86400)/3600;
   minute=(second%3600)/60;
